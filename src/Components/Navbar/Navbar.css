@@ -7,3 +7,23 @@ margin: 0 20px;
 .custom-upper-navbar .nav-item .dropdown-menu a {
     color: #000!important;
 }
+.custom-login-link {
+    display: none;
+}
+
+@media only screen and (max-width:600px) and (min-width:320px)
+{
+    .custom-login-link {
+        display: block;
+    }
+}
+
+/* @media only screen and (max-width:950px) and (min-width:320px)
+{
+    .custom-navbar-btn {
+        display: block!important;
+    }
+    .navbar-collapse ul li {
+        display: none!important;
+    }
+} */

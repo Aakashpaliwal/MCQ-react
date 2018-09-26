@@ -9,7 +9,7 @@ export class Navbar extends Component {
       <div>
       <nav className="navbar navbar-expand-sm navbar-light bg-dark custom-upper-navbar">
     {/* <a className="navbar-brand" href="#">Nikhil Comforts</a> */}
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">☰</button> 
+    <button className="navbar-toggler custom-navbar-btn" type="button" data-toggle="collapse" data-target="#navbar-collapse">☰</button> 
     <div className="collapse navbar-collapse custom-below-navbar" id="navbar-collapse">
         <ul className="nav navbar-nav">
             <Link to="/"><li className="nav-item active"> <a className="nav-link" href="">Home</a>
@@ -54,6 +54,8 @@ export class Navbar extends Component {
                     <a class="dropdown-item" href="#"><Link to ="/Firefighting">Mechanical Engineering</Link></a>
                     <a class="dropdown-item" href="#"><Link to ="/Interiors">Civil Engineering</Link></a>
                 </div>
+            </li>
+            <li className="nav-item custom-login-link"> <a className="nav-link" href="#"><Link to ="/Blog">Login</Link></a>
             </li>
         </ul>
     </div>

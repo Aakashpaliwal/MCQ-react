@@ -686,4 +686,9 @@ margin-bottom: 10px;
 .below-button button {
     margin: 0 10px;
 }
+.right-side-content-mcq ul li{
+list-style: none;
+margin: 10px 0;
+font-weight: bold;
+}
 /*************end mcq css******************/

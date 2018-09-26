@@ -139,6 +139,9 @@ export class Home extends Component {
     {/* offer section */}
         <section className = "service-nikhil-content" id="service">
           <div className="container">
+          <div className="row">
+          <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+          <div className="left-side-content-mcq">
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="custom-offer-box">
@@ -438,6 +441,23 @@ export class Home extends Component {
 
 
 
+          </div>
+          </div>
+      
+      <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div className="custom-offer-box right-side-content-mcq">
+        <h6>Number of Questions</h6>
+        <ul>
+        <li>Question 1 </li>
+        <li>Question 2 </li>
+        <li>Question 3 </li>
+        <li>Question 4 </li>
+        <li>Question 5 </li>
+        </ul>
+        </div>
+      </div>
+
+          </div>
           </div>
         </section>
 

@@ -144,7 +144,7 @@ export class Home extends Component {
           <div className="left-side-content-mcq">
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q1">
                      <h6>1. Fifth Generation Computers are Made OF ? </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -191,7 +191,7 @@ export class Home extends Component {
 
                             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q2">
                      <h6>2. A light sensitive device that converts drawing, printed text or other images into digital form is </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -245,7 +245,7 @@ export class Home extends Component {
               
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q3">
                      <h6>3. Which protocol provides e-mail facility among different hosts? </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -299,7 +299,7 @@ export class Home extends Component {
               
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q4">
                      <h6>4. The basic architecture of computer was developed by </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -353,7 +353,7 @@ export class Home extends Component {
               
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q5">
                      <h6>5. In order to tell Excel that we are entering a formula in cell, we must begin with an operator such as</h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -448,11 +448,11 @@ export class Home extends Component {
         <div className="custom-offer-box right-side-content-mcq">
         <h6>Number of Questions</h6>
         <ul>
-        <li>Question 1 </li>
-        <li>Question 2 </li>
-        <li>Question 3 </li>
-        <li>Question 4 </li>
-        <li>Question 5 </li>
+        <li><a href="#q1">Question 1</a></li>
+        <li><a href="#q2">Question 2</a></li>
+        <li><a href="#q3">Question 3</a></li>
+        <li><a href="#q4">Question 4</a></li>
+        <li><a href="#q5">Question 5</a></li>
         </ul>
         </div>
       </div>

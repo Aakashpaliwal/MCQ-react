@@ -141,13 +141,9 @@ class question3 extends Component {
       {/* offer section */}
           <section className = "service-nikhil-content" id="service">
             <div className="container">
-              <div className="row">
-              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <h2 className="text-center">OUR SERVICES</h2>
-              <p>It is a long established fact that a reader will be distracted by the</p>
-              </div>
-  
-              </div>
+            <div className="row">
+          <div className="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+          <div className="left-side-content-mcq">
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div className="custom-offer-box">
@@ -453,6 +449,21 @@ class question3 extends Component {
   
   
   
+            </div>
+            </div>
+            <div className="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div className="custom-offer-box right-side-content-mcq">
+        <h6>Number of Questions</h6>
+        <ul>
+        <li>Question 11 </li>
+        <li>Question 12 </li>
+        <li>Question 13 </li>
+        <li>Question 14 </li>
+        <li>Question 15 </li>
+        </ul>
+        </div>
+      </div>
+            </div>
             </div>
           </section>
   

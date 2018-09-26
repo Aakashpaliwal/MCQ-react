@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import './Home.css';
+import React, { Component } from 'react';
+import './Home';
 import {Link} from 'react-router-dom';
-// import './slider';
-export class Home extends Component {
-  constructor(props)
+
+class question2 extends Component {
+    constructor(props)
   {
     super(props);
     this.state = {
@@ -69,8 +69,10 @@ export class Home extends Component {
     return (
       <div>
           <div>
-    {/*SLIDER HERE */}
-    
+
+
+
+
     {/* END SLIDER HERE */}
     {/*upper four boxes */}
       {/* <section className="custom-upper-boxes">
@@ -139,35 +141,48 @@ export class Home extends Component {
     {/* offer section */}
         <section className = "service-nikhil-content" id="service">
           <div className="container">
+            <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2 className="text-center">OUR SERVICES</h2>
+            <p>It is a long established fact that a reader will be distracted by the</p>
+            </div>
+
+            </div>
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="custom-offer-box">
-                     <h6>1. Fifth Generation Computers are Made OF ? </h6>
+                     <h6>6. Microprocessor was introduced in which generation of computer? </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
                     <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="ArtificialIntelligence" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="ArtificialIntelligence">Artificial Intelligence</label>
+  <input type="radio" class="custom-control-input" id="SecondGeneration" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="SecondGeneration">Second Generation</label>
 </div>
 </li>
 
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="ProgrammingIntelligence" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="ProgrammingIntelligence">Programming Intelligence</label>
+  <input type="radio" class="custom-control-input" id="FourthGeneration" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="FourthGeneration">Fourth Generation</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="SystemKnowledge" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="SystemKnowledge">System Knowledge</label>
+  <input type="radio" class="custom-control-input" id="Both(A)and(B)" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="Both(A)and(B)">Both (A) and (B)</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="VVLSI" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="VVLSI">VVLSI</label>
+  <input type="radio" class="custom-control-input" id="ThirdGeneration" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="ThirdGeneration">Third Generation</label>
+</div>
+</li>
+<li>
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="Allofthese" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="Allofthese">All of these</label>
 </div>
 </li>
 </ol>
@@ -189,32 +204,86 @@ export class Home extends Component {
                             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="custom-offer-box">
-                     <h6>2. A light sensitive device that converts drawing, printed text or other images into digital form is </h6>
+                     <h6>7. Which of the following memory is non-volatile?</h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
                     <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="Keyboard" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="Keyboard">Keyboard</label>
+  <input type="radio" class="custom-control-input" id="SRAM" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="SRAM">SRAM</label>
 </div>
 </li>
 
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="Plotter" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="Plotter">Plotter</label>
+  <input type="radio" class="custom-control-input" id="DRAM" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="DRAM">DRAM</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="Scanner" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="Scanner">Scanner</label>
+  <input type="radio" class="custom-control-input" id="ROM" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="ROM">ROM</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="OMR" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="OMR">OMR</label>
+  <input type="radio" class="custom-control-input" id="Alloftheabove" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="Alloftheabove">All of the above</label>
+</div>
+</li>
+<li>
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="Noneofthese" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="Noneofthese">None of these</label>
+</div>
+</li>
+</ol>
+</div>
+
+<div className="below-button text-center">
+<button type="button" className="btn btn-primary">Answer &amp; solution</button>
+<button type="button" className="btn btn-info">Discuss in Boards</button>
+<button type="button" className="btn btn-success">Share</button>
+<button type="button" className="btn btn-warning">Save For Later</button>
+</div>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+              
+              <div className="row">
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div className="custom-offer-box">
+                     <h6>8. GUI stands for</h6>
+                    <div className="custom-ul-answers">
+                    <ol type="A">
+                    <li>
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="GraphUseInterface" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="GraphUseInterface">Graph Use Interface</label>
+</div>
+</li>
+
+<li>
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="GraphicalUniversalInterface" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="GraphicalUniversalInterface">Graphical Universal Interface</label>
+</div>
+</li>
+<li>
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="GraphicalUserInterface" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="GraphicalUserInterface">Graphical User Interface</label>
+</div>
+</li>
+<li>
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="GraphicalUniqueInterface" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="GraphicalUniqueInterface">Graphical Unique Interface</label>
 </div>
 </li>
 <li>
@@ -243,32 +312,32 @@ export class Home extends Component {
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="custom-offer-box">
-                     <h6>3. Which protocol provides e-mail facility among different hosts? </h6>
+                     <h6>9. Any data or instruction entered into the memory of a computer is considered as </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
                     <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="FTP" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="FTP">FTP</label>
+  <input type="radio" class="custom-control-input" id="Storage" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="Storage">Storage</label>
 </div>
 </li>
 
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="SMTP" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="SMTP">SMTP</label>
+  <input type="radio" class="custom-control-input" id="Output" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="Output">Output</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="TELNET" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="TELNET">TELNET</label>
+  <input type="radio" class="custom-control-input" id="Input" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="Input">Input</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="SNMP" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="SNMP">SNMP</label>
+  <input type="radio" class="custom-control-input" id="Information" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="Information">Information</label>
 </div>
 </li>
 <li>
@@ -297,92 +366,38 @@ export class Home extends Component {
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="custom-offer-box">
-                     <h6>4. The basic architecture of computer was developed by </h6>
+                     <h6>10. Time during which a job is processed by the computer is:</h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
                     <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="John Von Neumann" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="John Von Neumann">John Von Neumann</label>
+  <input type="radio" class="custom-control-input" id="ExecutionTime" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="ExecutionTime">Execution Time</label>
 </div>
 </li>
 
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="Charles Babbage" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="Charles Babbage">Charles Babbage</label>
+  <input type="radio" class="custom-control-input" id="DelayTime" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="DelayTime">Delay Time</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="Blaise Pascal" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="Blaise Pascal">Blaise Pascal</label>
+  <input type="radio" class="custom-control-input" id="RealTime" name="defaultExampleRadios" />
+  <label class="custom-control-label" for="RealTime">Real Time</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="Garden Moore" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="Garden Moore">Garden Moore</label>
+  <input type="radio" class="custom-control-input" id="WaitingTime" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="WaitingTime">Waiting Time</label>
 </div>
 </li>
 <li>
 <div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="None of these" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="None of these">None of these</label>
-</div>
-</li>
-</ol>
-</div>
-
-<div className="below-button text-center">
-<button type="button" className="btn btn-primary">Answer &amp; solution</button>
-<button type="button" className="btn btn-info">Discuss in Boards</button>
-<button type="button" className="btn btn-success">Share</button>
-<button type="button" className="btn btn-warning">Save For Later</button>
-</div>
-                  </div>
-                </div>
-
-
-
-              </div>
-
-              
-              <div className="row">
-                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
-                     <h6>5. In order to tell Excel that we are entering a formula in cell, we must begin with an operator such as</h6>
-                    <div className="custom-ul-answers">
-                    <ol type="A">
-                    <li>
-<div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="#" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="#">#</label>
-</div>
-</li>
-
-<li>
-<div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="$" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="$">$</label>
-</div>
-</li>
-<li>
-<div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="@" name="defaultExampleRadios" />
-  <label class="custom-control-label" for="@">@</label>
-</div>
-</li>
-<li>
-<div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="+" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="+">+</label>
-</div>
-</li>
-<li>
-<div class="custom-control custom-radio">
-  <input type="radio" class="custom-control-input" id="=" name="defaultExampleRadios"/>
-  <label class="custom-control-label" for="=">=</label>
+  <input type="radio" class="custom-control-input" id="Noneofthese" name="defaultExampleRadios"/>
+  <label class="custom-control-label" for="Noneofthese">None of these</label>
 </div>
 </li>
 </ol>
@@ -451,4 +466,5 @@ export class Home extends Component {
     )
   }
 }
-export default Home
+
+export default question2;

@@ -411,7 +411,7 @@
     text-align: center;
 }
 .service-nikhil-content {
-    padding: 5%;
+    padding: 1%;
     background: #f4f4f4;
     
 }
@@ -679,5 +679,11 @@ margin-bottom: 10px;
 }
 .custom-control {
     padding-left: 1.8rem!important;
+}
+.second-custom-row {
+
+}
+.below-button button {
+    margin: 0 10px;
 }
 /*************end mcq css******************/

@@ -15,26 +15,45 @@ export class Navbar extends Component {
             <Link to="/"><li className="nav-item active"> <a className="nav-link" href="">Home</a>
             </li></Link>
             <li className="nav-item nav-link">
-            <Link to="/About">About</Link>
+            <Link to="/About">Aptitude</Link>
             </li>
            <li className="nav-item nav-link">
-           <Link to ="/Projects"> Projects</Link>
+           <Link to ="/Projects"> English</Link>
+            </li>
+            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Career">DI</Link></a>
+            </li>
+            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Blog">Reasoning</Link></a>
+            </li>
+            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Blog">GK</Link></a>
+            </li>
+            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Blog">Cureent Affairs</Link></a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Computer</a>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item custom-a-color" href="#"><Link to ="/HVAC">HVAC</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/Electrical">Electric</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/Firefighting">Firefighting</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/Interiors">Interiors</Link></a>
-                    <a class="dropdown-item" href="#"><Link to ="/BMS">BMS And Much More</Link></a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#"><Link to ="PHE">Public Health Engineering</Link></a>
+                    <a class="dropdown-item custom-a-color" href="#"><Link to ="/HVAC">Computer Networking</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Electrical">Network</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Firefighting">SQL</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Interiors">Database</Link></a>
                 </div>
             </li>
-            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Career">Career</Link></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Programming</a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item custom-a-color" href="#"><Link to ="/HVAC">Java</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Electrical">C++</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Firefighting">Python</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Interiors">Javascript</Link></a>
+                </div>
             </li>
-            <li className="nav-item"> <a className="nav-link" href="#"><Link to ="/Blog">Blog</Link></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Engineering</a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item custom-a-color" href="#"><Link to ="/HVAC">Computer Science</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Electrical">Electrical Engineering</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Firefighting">Mechanical Engineering</Link></a>
+                    <a class="dropdown-item" href="#"><Link to ="/Interiors">Civil Engineering</Link></a>
+                </div>
             </li>
         </ul>
     </div>

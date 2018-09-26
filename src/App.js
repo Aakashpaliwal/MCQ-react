@@ -18,6 +18,8 @@ import About from './Components/About/About';
 import Career from './Components/Career/Career';
 import Blog from './Components/Blog/Blog';
 import UpperNavbar from './Components/UpperNavbar/UpperNavbar';
+import question2 from './Components/Home/question2';
+import question3 from './Components/Home/question3';
 class App extends Component {
   render() {
     return (
@@ -35,6 +37,8 @@ class App extends Component {
         <Route path = "/About" exact = {true} component = {About} />
         <Route path = "/Career" exact = {true} component = {Career} />
         <Route path = "/Blog" exact = {true} component = {Blog} />
+        <Route path = "/question2" exact = {true} component = {question2}/>
+        <Route path = "/question3" exact = {true} component = {question3}/>
       <Footer />
       </div>
     );

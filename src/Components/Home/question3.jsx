@@ -146,7 +146,7 @@ class question3 extends Component {
           <div className="left-side-content-mcq">
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="custom-offer-box">
+                    <div className="custom-offer-box" id="q11">
                        <h6>11. Which one of the following is not an application software package? </h6>
                       <div className="custom-ul-answers">
                       <ol type="A">
@@ -199,7 +199,7 @@ class question3 extends Component {
   
                               <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="custom-offer-box">
+                    <div className="custom-offer-box" id="q12">
                        <h6>12. Which of the following statement is wrong?</h6>
                       <div className="custom-ul-answers">
                       <ol type="A">
@@ -253,7 +253,7 @@ class question3 extends Component {
                 
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="custom-offer-box">
+                    <div className="custom-offer-box" id="q13">
                        <h6>13. An error is also known as:</h6>
                       <div className="custom-ul-answers">
                       <ol type="A">
@@ -307,7 +307,7 @@ class question3 extends Component {
                 
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="custom-offer-box">
+                    <div className="custom-offer-box" id="q14">
                        <h6>14. Microsoft Word is an example of  </h6>
                       <div className="custom-ul-answers">
                       <ol type="A">
@@ -361,7 +361,7 @@ class question3 extends Component {
                 
                 <div className="row">
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div className="custom-offer-box">
+                    <div className="custom-offer-box" id="q15">
                        <h6>15. Graphical pictures that represent an object like file, folder etc are:</h6>
                       <div className="custom-ul-answers">
                       <ol type="A">
@@ -455,11 +455,11 @@ class question3 extends Component {
         <div className="custom-offer-box right-side-content-mcq">
         <h6>Number of Questions</h6>
         <ul>
-        <li>Question 11 </li>
-        <li>Question 12 </li>
-        <li>Question 13 </li>
-        <li>Question 14 </li>
-        <li>Question 15 </li>
+        <li><a href="#q11">Question 11</a> </li>
+        <li><a href="#q12">Question 12</a> </li>
+        <li><a href="#q13">Question 13</a> </li>
+        <li><a href="#q14">Question 14</a> </li>
+        <li><a href="#q15">Question 15</a> </li>
         </ul>
         </div>
       </div>

@@ -146,7 +146,7 @@ class question2 extends Component {
           <div className="left-side-content-mcq">
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q6">
                      <h6>6. Microprocessor was introduced in which generation of computer? </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -199,7 +199,7 @@ class question2 extends Component {
 
                             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q7">
                      <h6>7. Which of the following memory is non-volatile?</h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -253,7 +253,7 @@ class question2 extends Component {
               
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q8">
                      <h6>8. GUI stands for</h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -307,7 +307,7 @@ class question2 extends Component {
               
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q9">
                      <h6>9. Any data or instruction entered into the memory of a computer is considered as </h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -361,7 +361,7 @@ class question2 extends Component {
               
               <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <div className="custom-offer-box">
+                  <div className="custom-offer-box" id="q10">
                      <h6>10. Time during which a job is processed by the computer is:</h6>
                     <div className="custom-ul-answers">
                     <ol type="A">
@@ -455,11 +455,11 @@ class question2 extends Component {
         <div className="custom-offer-box right-side-content-mcq">
         <h6>Number of Questions</h6>
         <ul>
-        <li>Question 6 </li>
-        <li>Question 7 </li>
-        <li>Question 8 </li>
-        <li>Question 9 </li>
-        <li>Question 10 </li>
+        <li><a href="#q6">Question 6</a></li>
+        <li><a href="#q7">Question 7</a></li>
+        <li><a href="#q8">Question 8</a> </li>
+        <li><a href="#q9">Question 9</a> </li>
+        <li><a href="#q10">Question 10</a> </li>
         </ul>
         </div>
       </div>
